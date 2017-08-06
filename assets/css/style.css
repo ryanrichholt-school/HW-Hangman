@@ -1,0 +1,39 @@
+body {
+	background-color: #fff400;
+	background: url("../images/sunburst.jpeg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	color: red;
+	font-weight: bold;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: yellow;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+@keyframes example {
+    0%   {left:0px; bottom:0px;}
+    15% {left:10px; bottom:5px;}
+    25%  {left:20px; bottom:15px;}
+    50%  {left:5px; bottom:10px;}
+    65% {left:10px; bottom:5px;}
+    75%  {left:15px; bottom:10px;}
+    100% {left:10px; bottom:5px;}
+}
+
+#spaceship {
+	position: fixed;
+	left:0px;
+	bottom:0px;
+	width: 455px;
+	height: 300px;
+	animation: example 20s linear 8s infinite alternate;
+}
